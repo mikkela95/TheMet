@@ -37,7 +37,7 @@ extension FileManager {
   static func sharedContainerURL() -> URL {
     return FileManager.default.containerURL(
       forSecurityApplicationGroupIdentifier:
-        "group.com.yourcompany.TheMet.objects")!
+        "com.mikkelacompany.TheMet.objects")!
     // swiftlint:disable:previous force_unwrapping
   }
 }
